@@ -25,7 +25,7 @@ int main() {
     float pib2;
     int pontos2;
 
-  // Área para entrada de dados
+  //Área para entrada de dados
 
   // Carta 1
     printf("Digite a letra do seu estado: ");
@@ -61,7 +61,7 @@ int main() {
 
     printf("Digite o nome da sua Cidade: ");
     /*scanf("%s", cidade2);*/
-    scanf(" %[^\n]s", cidade2); // Lê tudo até encontrar um \n
+    scanf(" %[^\n]s", cidade2); //Lê tudo até encontrar um \n
     // Obs: o espaço antes do % é para consumir qualquer caractere de nova linha pendente no buffer
 
     printf("Digite o numero total da População: ");
